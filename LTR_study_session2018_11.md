@@ -1,17 +1,17 @@
-#第三回　LTR勉強会
+# 第三回　LTR勉強会
 
 ## **How to use LTR Solr Plugin** プロローグ （Presented by ）
 
-###検索システムで困る時
+### 検索システムで困る時
 * want to tune ranking 
 	1. score * 100 
 	2. Title と本文のブースト値を変える。
 	3. このようにチューニングしてもinverted indexが変われば、チューニングのし直しが必要になる。
 
-###LTRとは
+### LTRとは
 * 検索結果に対するユーザーのアクション（クリックetc）を得点化して、ランキングに反映させる。
 
-###SolrのLTR
+### SolrのLTR
 1. Solrの起動
 	* defult で設定されていないので、設定する必要がある。
 ```sh 
