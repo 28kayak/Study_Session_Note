@@ -23,13 +23,13 @@ Chatbot review
    2. input を linked list 式に繋げる。
    3. Depth First Search でGraph を探索する。
     - 探索時のチェック事項　
-        1. if node contains wildcard "_"?
+        1. if node contains wildcard "_"?  
             yes: keep search subgraph   
-            no : go to the next if-statement.
+            no : go to the next if-statement.  
         2. if node contains `\[ k_h \]`
             yes: keep search subgraph  
-            no:  go to the next if-statement.
+            no:  go to the next if-statement.  
         3. if node contains "*" ?  
             yes: keep search subgraph
-            no : go to the next if-statement.
+            no : go to the next if-statement.  
    
