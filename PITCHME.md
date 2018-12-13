@@ -21,13 +21,17 @@ Chatbot review
    Graph Strcture with Depth First Search 
    
    ```xml
+<category>
+    <pattern> TELL ME ABOUT Solr</pattern>
+    <template>Solr is #######</template>
+   </category>
    <category>
     <pattern> TELL ME ABOUT LUCENE</pattern>
     <template>Lucene is ============</template>
    </category>
    <category>
-    <pattern>TELL ME ABOUT APACHE XXXXX</pattern>
-    <template>Apache xxxxx is ~~~~~~~~~~~~~~~~~~~~~~~~~~</template>
+    <pattern>TELL ME ABOUT APACHE OpenNLP</pattern>
+    <template>Apache OpenNLP is ~~~~~~~~~~~~~~~~~~~~~~~~~~</template>
    </category>
    <category>
     <pattern>I like about Solr</pattern>
@@ -35,6 +39,7 @@ Chatbot review
    </category>
 
    ```
+---   
 ### AIML Data Strcture 
 
    With this example AIML file input, AIML-Original Parser will construct a graph like below.
