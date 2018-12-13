@@ -19,6 +19,21 @@ Chatbot review
 ### AIML Data Strcture 
 - Data Strcture 
    Graph Strcture with Depth First Search 
+   ```xml
+   <category>
+    <pattern> TELL ME ABOUT LUCENE</pattern>
+    <template>Lucene is ============</template>
+   </category>
+   <category>
+    <pattern>TELL ME ABOUT APACHE XXXXX</pattern>
+    <template>Apache xxxxx is ~~~~~~~~~~~~~~~~~~~~~~~~~~</template>
+   </category>
+   <category>
+    <pattern>I like about Solr</pattern>
+    <template>You like Solr, ok.</template>
+   </category>
+
+   ```
 
 
 ### AIML Perser's functionality  
