@@ -22,8 +22,8 @@ Chatbot review
    
    ```xml
 <category>
-    <pattern> TELL ME ABOUT Solr</pattern>
-    <template>Solr is #######</template>
+    <pattern> TELL ME ABOUT *</pattern>
+    <template><srai>CLASS</srai></template>
    </category>
    <category>
     <pattern> TELL ME ABOUT LUCENE</pattern>
@@ -34,8 +34,8 @@ Chatbot review
     <template>Apache OpenNLP is ~~~~~~~~~~~~~~~~~~~~~~~~~~</template>
    </category>
    <category>
-    <pattern>I like about Solr</pattern>
-    <template>You like Solr, ok.</template>
+    <pattern>CLASS</pattern>
+    <template>Class name property is something something...</template>
    </category>
 
    ```
@@ -43,7 +43,7 @@ Chatbot review
 ### AIML Data Strcture 
 
    With this example AIML file input, AIML-Original Parser will construct a graph like below.
-  ![AIML Data Strcture1](https://github.com/28kayak/Study_Session_Note/blob/master/ChatbotReview20181217.jpg)
+  ![AIML Data Strcture1](https://github.com/28kayak/Study_Session_Note/ChatbotReview20181217.jpg)
 
 ---
 ### AIML Perser's functionality  
