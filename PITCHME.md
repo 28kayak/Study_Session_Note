@@ -19,6 +19,7 @@ Chatbot review
 ### AIML Data Strcture 
 - Data Strcture 
    Graph Strcture with Depth First Search 
+   
    ```xml
    <category>
     <pattern> TELL ME ABOUT LUCENE</pattern>
@@ -34,8 +35,15 @@ Chatbot review
    </category>
 
    ```
+   Example AIML file.
+   With this example AIML file input, AIML-Original Parser will construct a graph like below.
+   
+   [root(NodeMappter)]--[tell]--[me]--[about]---[Solr]-[<that>]-[*]-[<topic>]-[<template>]
+                      |                      |-[lucene]-[<that>]-[*]-[<topic>]-[<template>] 
+                      |                      |-[Apach]-[OpenNLP]-[<that>]-[*]-[<topic>]-[<template>]
+                      |-[I]-[like]-[a]-[programming]
 
-
+---
 ### AIML Perser's functionality  
 
 - When user input is entered 
