@@ -16,6 +16,11 @@ Chatbot review
    
    全てのカテゴリーにこのプロセスを適応する。
 ---
+### AIML Data Strcture 
+- Data Strcture 
+   Graph Strcture with Depth First Search 
+
+
 ### AIML Perser's functionality  
 
 - When user input is entered 
@@ -32,4 +37,5 @@ Chatbot review
         3. if node contains "*" ?  
             yes: keep search subgraph
             no : go to the next if-statement.  
+    
    
