@@ -37,12 +37,7 @@ Chatbot review
    ```
    Example AIML file.
    With this example AIML file input, AIML-Original Parser will construct a graph like below.
-   ```sh
-   [root(NodeMappter)]--[tell]--[me]--[about]---[Solr]-[<that>]-[*]-[<topic>]-[<template>]
-                      |                      |-[lucene]-[<that>]-[*]-[<topic>]-[<template>] 
-                      |                      |-[Apach]-[OpenNLP]-[<that>]-[*]-[<topic>]-[<template>]
-                      |-[I]-[like]-[a]-[programming]
-   ```
+  ![AIML Data Strcture1](https://github.com/28kayak/Study_Session_Note/blob/master/ChatbotReview20181217.jpg)
 
 ---
 ### AIML Perser's functionality  
