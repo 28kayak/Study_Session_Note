@@ -35,7 +35,8 @@ Chatbot review
    </category>
 
    ```
-   Example AIML file.
+### AIML Data Strcture 
+
    With this example AIML file input, AIML-Original Parser will construct a graph like below.
   ![AIML Data Strcture1](https://github.com/28kayak/Study_Session_Note/blob/master/ChatbotReview20181217.jpg)
 
